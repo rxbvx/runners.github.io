@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+@font-face {
+    font-family: anton-reg;
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url(../fonts/Inter/Inter-SemiBold.otf);
+}
+@font-face {
+    font-family: manrope-med;
+    src: url(../fonts/Manrope/manrope-medium.ttf);
+}
+@font-face {
+    font-family: manrope-semibold;
+    src: url(../fonts/Manrope/manrope-semibold.ttf);
+}
+@font-face {
+    font-family: manrope-bold;
+    src: url(../fonts/Manrope/Manrope-bold.ttf);
+}
+@font-face {
+    font-family: manrope-reg;
+    src: url(../fonts/Manrope/Manrope.ttf);
+}
+@font-face {
+    font-family: righteous-reg;
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container1{
+    /* background-color: rgb(179, 41, 41); */
+    width: 1440px;
+    height: 918px;
+    background-image: url(../img/BG.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 115px;
+
+}
+.header{
+    /* margin-left: 138px; */
+    margin-top: 31px;
+}
+.nav_logo_txt{
+    font-family: righteous-reg;
+    font-size: 34px;
+    color: #2e2e2e;
+}
+.nav_runners{
+    width: 1175px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.nav_header{
+    width: 413px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    font-family: manrope-reg;
+    font-size: 20px;
+    color: #2e2e2e;
+    
+}
+.header_search{
+    margin-right: 16px;
+}
+.face_site{
+    width: 1170px;
+    height: 610px;
+    /* background-color: aqua; */
+    margin-top: 67px;
+    /* margin-left: 138px; */
+    display: flex;
+    justify-content: space-between;
+}
+.face_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.face_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.first_line{
+    font-family: righteous-reg;
+    font-size: 34px;
+    text-decoration: underline 1px;
+    color: #2e2e2e;
+}
+.second_line{
+    font-family: anton-reg;
+    font-size: 120px;
+    color: #2e2e2e;
+}
+.face_buy_button{
+    background-color: #FE8159;
+    color: #FFFFFF;
+    border: none;
+    width: 211px;
+    height: 80px;
+    margin: 14px;
+    font-family: manrope-reg;
+    font-size: 20px;
+}
+.face_buy_button:active,.face_buy_button:hover{
+    background-color: #e76b41;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* height: 1670px; */
+    width: 1440px;
+}
+.brands_nav{
+    display: flex;
+    overflow: hidden;
+    /* width: 1522px; */
+    /* margin-left: 138px; */
+}
+.brands_container{
+    margin-left: 138px;
+}
+.brand{
+    height: 132px;
+    width: 358px;
+    display: grid;
+    grid-template-columns: 142px 201px;
+    align-items: center;
+    background-color: #FE8159;
+    font-family: righteous-reg;
+    font-size: 52px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 110px;;
+}
+.middle_main{
+    margin-left: 138px;
+}
+.middle_header{
+    font-family: righteous-reg;
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+.middle_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+.shoe_collection{
+    margin-left: 138px;
+}
+.shoe_header_txt{
+    font-family: righteous-reg;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.shoe_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 59px;
+}
+.sneakers_nav{
+    display: flex;
+    margin-bottom: 212px;
+    overflow: hidden;
+}
+.sneak_box{
+    width: 370px;
+    height: 404px;
+    /* background-color: #e76b41; */
+    margin-right: 30px;
+}
+.sneak_down{
+    display: grid;
+    grid-template-columns: 304px 1fr;
+    grid-auto-rows: 40px;
+    margin-top: 23px;
+    align-items: center;
+    height: 80px;
+}
+.sneak_txt{
+    font-family: inter-semibold;
+    font-size: 27px;
+    grid-column-start: 0;
+    grid-row-start: 1;
+}
+
+.sneak_price{
+    font-family: inter-semibold;
+    font-size: 24px;
+    grid-column-start: 1;
+    grid-row-end: 3;
+}
+.add_incart{
+    grid-column-end: 3;
+    align-items: center;
+    grid-row-end: 2;
+    margin-top: 31px;
+}
+.feedback_zone{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+    /* margin-left: -201px; */
+
+}
+.feedback{
+    width: 1440px;
+    height: 480px;
+    background-color: #00574e;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+.feedback_header{
+    font-family: righteous-reg;
+    font-size: 42px;
+    height: 104px;
+    color: #FFFFFF;
+    width: 470px;
+    margin-bottom: 18px;
+    margin-top: 91px;
+    margin-left: 201px;
+}
+.feedback_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    width: 500px;
+    height: 90px;
+    margin-bottom: 25px;
+    margin-left: 201px;
+}
+.feedback_email{
+    margin-left: 201px;
+}
+.email_field{
+    height: 60px;
+    width: 325px;
+    padding-left: 16px;
+    font-family: Manrope-reg;
+    font-size: 18px;
+}
+.feedback_subscribe{
+    font-family: Manrope-semibold;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #fe7c56;
+    width: 157px;
+    height: 60px;
+    border: none;
+}
+.feedback_img{
+    rotate: 10deg;
+    z-index: 1;
+    margin-left: -600px;
+    margin-top: -70px;
+}
+.footer_container{
+    width: 1166px;
+    height: 355px;
+    /* margin-left: 134px; */
+    margin-bottom: 60px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    color: #2e2e2e;
+}
+.footer_main{
+    display: grid;
+    grid-template-columns: 400px 334px 218px 1fr;
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer_list_head{
+    font-family: Manrope-med;
+    font-size: 30px;
+    margin-bottom: 19px;
+    margin-top: 11px;
+}
+.footer_logo_head_txt{
+    font-family: righteous-reg;
+    font-size: 44px;
+    margin-bottom: 21px;
+}
+.footer_logo_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+.ab{
+    font-family: Manrope-reg;
+    font-size: 20px;
+    color: #2e2e2e;
+    margin-left: 4px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+.footer_address{
+    margin-left: 0;
+} 
+.footer_social_links{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_last{
+    color: #2e2e2e;
+    margin-top: 78px;
+}
+.footer_last_txt{
+    text-align: center;
+    opacity: 0.4;
+}
