@@ -112,6 +112,9 @@ body{
     text-decoration: underline 1px;
     color: #2e2e2e;
 }
+.unvisible_text{
+    display: none;
+}
 .second_line{
     font-family: anton-reg;
     font-size: 120px;

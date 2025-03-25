@@ -1,0 +1,293 @@
+.container1{
+    /* background-color: rgb(179, 41, 41); */
+    width: 390px;
+    height : min-content;
+    background: none;
+    background-size: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.header{
+    /* margin-left: 138px; */
+    margin-top: 0px;
+}
+.nav_logo_txt{
+    font-family: righteous-reg;
+    font-size:34px;
+    color: #2e2e2e;
+    grid-row: 1;
+    grid-column: 20;
+}
+.nav_runners{
+    width: 390px;
+    height: 152px;
+    display: grid;
+    grid-template-columns: repeat(390, 1px);
+    grid-template-rows: 76px 76px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color:  #ff825856;
+    padding: 10px 0;
+}
+.nav_header{
+    width: 350px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff8f;
+    font-family: manrope-reg;
+    font-size: 20px;
+    color: #2e2e2e;
+    grid-row: 2;
+    grid-column: 1;
+    padding:24px 20px ;
+}
+.nav_buttons{
+    grid-row: 1;
+    grid-column: 250;
+    display: flex;
+}
+.face_site{
+    width: 390px;
+    height: fit-content;
+    /* background-color: aqua; */
+    margin-top: 0;
+    /* margin-left: 138px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.img_runners{
+    width: 340px;
+    object-fit:cover;
+    object-position: center;
+    padding: 10px 0;
+}
+.face_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 20px; */
+}
+.face_left{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.face_buy_button{
+    background-color: #FE8159;
+    color: #FFFFFF;
+    border: none;
+    width: 270px;
+    height: 60px;
+    margin: 14px;
+    font-family: manrope-reg;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.second_line{
+    font-family: anton-reg;
+    font-size: 32px;
+    color: #2e2e2e;
+    visibility: hidden;
+    display: none ;
+}
+.unvisible_text{
+    display:flex;
+    font-family: anton-reg;
+    font-size: 35px;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+.first_line{
+    font-family: righteous-reg;
+    font-size: 34px;
+    text-decoration: none;
+    color: #2e2e2e;
+    margin-bottom: 15px;
+    background-color: #ff825856;
+    padding:0px 30px 10px 30px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* height: 1670px; */
+    width: 390px;
+}
+.middle_main{
+    margin-left: 0px;
+}
+.middle_header{
+    font-family: righteous-reg;
+    font-size: 34px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.middle_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.brands_container{
+    margin-left: 20px;
+}
+.brand{
+    height: 132px;
+    width: 358px;
+    display: grid;
+    grid-template-columns: 142px 201px;
+    align-items: center;
+    background-color: #FE8159;
+    font-family: righteous-reg;
+    font-size: 52px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 50px;;
+}
+.shoe_collection{
+    margin-left: 0px;
+}
+.shoe_header_txt{
+    font-family: righteous-reg;
+    font-size: 34px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.shoe_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sneakers_nav{
+    display: flex;
+    margin-bottom: 212px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.feedback_img{
+    rotate: 10deg;
+    z-index: 1;
+    margin-left: -600px;
+    margin-top: -70px;
+    display: none;
+}
+.feedback{
+    width: 390px;
+    /* height: 480px; */
+    background-color: #00574e;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+.feedback_header{
+    font-family: righteous-reg;
+    font-size: 34px;
+    height: 104px;
+    color: #FFFFFF;
+    width: 350px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.sneakers_nav{
+    display: flex;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.feedback{
+    width: 390px;
+    height: 440px;
+    background-color: #00574e;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+.feedback_txt{
+    font-family: Manrope-reg;
+    font-size: 18px;
+    width: 350px;
+    /* height: 90px; */
+    margin-bottom: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.feedback_zone{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    /* margin-left: -201px; */
+
+}
+.feedback_email{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.feedback_subscribe{
+    font-family: Manrope-semibold;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #fe7c56;
+    width: 157px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.email_field{
+    height: 60px;
+    width: 290px;
+    padding-left: 16px;
+    font-family: Manrope-reg;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+
+}
+.footer_container{
+    width: 390px;
+    /* height: 355px; */
+    height: max-content;
+    /* margin-left: 134px; */
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    color: #2e2e2e;
+}
+.footer_main{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 800px;
+justify-content: space-between;
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_last{
+    color: #2e2e2e;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
